@@ -1,0 +1,25 @@
+body{
+    margin: 0%;
+}
+
+@media (max-aspect-retio: 7/10){
+    .joinContainer{
+        width: 100% ! important;
+        border: 2px solid white
+    }
+}
+
+.joinContainer > img{
+    width: 10vmax;
+}
+
+.joinContainer >h1{
+    color:White;
+    font-size:6vw !important;
+    width: 55vw !important;
+    border-bottom: 0.6vw solid white ;
+   
+    padding: 1vmax;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
